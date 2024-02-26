@@ -6,6 +6,7 @@ from .models import Post
 from .serializers import PostSerializer
 from foto_flux.permissions import IsOwnerOrReadOnly
 
+
 class PostList(APIView):
     serializer_class = PostSerializer
     permission_classes = [
