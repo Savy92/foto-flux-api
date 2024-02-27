@@ -58,7 +58,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEV' in os.environ
 
-ALLOWED_HOSTS = ['8000-savy92-fotofluxapi-9bqkmz0e2ag.ws-eu108.gitpod.io', 'foto-flux.herokuapp.com']
+ALLOWED_HOSTS = ['8000-savy92-fotofluxapi-9bqkmz0e2ag.ws-eu108.gitpod.io', 'foto-flux-74c66b50e826.herokuapp.com']
 
 
 # Application definition
